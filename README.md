@@ -26,8 +26,10 @@ Follow these steps to install the necessary dependencies:
 After installation, you can run the script to extract data from a PDF.
 
 Example:
+```bash
+python extract_data.py <path-to-pdf-file>
 
-## Example:
+## Пример вызова:
 pdf_path = '/data/test_task.pdf'
 pdf_data = extract_pdf_data(pdf_path)
 print(pdf_data)

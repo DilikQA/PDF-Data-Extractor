@@ -103,16 +103,3 @@ def extract_barcodes_from_pdf(pdf_file_path):
     except Exception as e:
         print(f"Ошибка при извлечении баркодов: {e}")
         return []
-
-
-
-
-# Пример использования:
-file_path = 'C:\\Users\\Dilovar\\OneDrive\\Desktop\\Тестовое задание для ximxim\\test_task.pdf'
-pdf_data = extract_pdf_info(file_path)
-print(pdf_data)
-
-
-file_path = 'C:\\Users\\Dilovar\\OneDrive\\Desktop\\Тестовое задание для ximxim\\test_task.pdf'
-pdf_data = extract_barcodes_from_pdf(file_path)
-print(pdf_data)
